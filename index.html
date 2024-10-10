@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--FIM DO GOOGLE FONTS-->
+
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
+    <!--FIM DO BOOTSTRAP-->
+
+    <link rel="stylesheet" href="style.css">
+    <title>@Tech Informatica</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo @Tech" width="100">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#topo">Início</a></li>
+                    <li><a href="#metodologia">Metodologia</a></li>
+                    <li><a href="#portifolio">Cursos</a></li>
+                    <li><a href="#local">Local</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="https://wa.me//554733127303">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+        </div><!--Interface--> 
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="topo">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1><span>@Tech</span> Informática</h1>
+                        <p>A <span>@Tech</span> tem se dedicado a oferecer cursos de alta qualidade desde 2000, 
+                            adaptados às necessidades em constante evolução do mercado de trabalho.
+                        </p>
+
+                        <div class="btn-contato">
+                            <a href="https://wa.me//554733127303">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/Pessoa.png" alt="pessoa" width="500"/>
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--Topo-do-site-->
+
+        <section class="carrossel" id="portifolio">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="carrossel/1.jpg" alt="Image 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="carrossel/2.jpg" alt="Image 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="carrossel/3.jpg" alt="Image 3">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="carrossel/4.jpg" alt="Image 4">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="carrossel/5.jpg" alt="Image 5">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="carrossel/6.jpg" alt="Image 6">
+                    </div>
+                </div>
+                <button class="carousel-button prev">&#10094;</button>
+                <button class="carousel-button next">&#10095;</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        </section><!--Carrossel-->
+
+        <section class="metodologia" id="metodologia">
+            <h2 class="titulo">METODOLOGIA</h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <i class="bi bi-journal-bookmark"></i>
+                    <h3>Aprendizado</h3>
+                    <p>Nesta metodologia, cada aluno segue um plano de aprendizado individualizado, 
+                        ao contrário do modelo tradicional. Este sistema permite que os alunos escolham os tópicos 
+                        e áreas de estudo que mais lhes interessam ou nos quais precisam de mais prática.
+                         Os educadores atuam como mentores e facilitadores,
+                         fornecendo orientação e suporte conforme necessário.</p>
+                </div><!--Especialidades-box-->
+
+                <div class="especialidades-box">
+                    <i class="bi bi-calendar-check"></i>
+                    <h3>Autonomia</h3>
+                    <p>Os alunos têm a liberdade de dedicar o tempo necessário para compreender plenamente cada
+                         conceito antes de avançar para o próximo. Esta abordagem promove a responsabilidade e a autogestão,
+                          permitindo que os alunos desenvolvam habilidades importantes para a vida, como a autodisciplina e 
+                          a capacidade de definir e atingir objetivos pessoais.</p>
+                </div><!--Especialidades-box-->
+
+                <div class="especialidades-box">
+                    <i class="bi bi-check2-circle"></i>
+                    <h3>Avaliação</h3>
+                    <p>Em vez de avaliações padronizadas em momentos específicos do ano letivo, a metodologia individualizada 
+                        utiliza uma abordagem de avaliação contínua. A avaliação contínua garante que o aprendizado seja 
+                        profundo e significativo, ao invés de superficial e voltado apenas para passar em testes.</p>
+                </div><!--Especialidades-box-->
+            </div><!--Classe Flex-->
+        </section><!--Metodologia-->
+
+<!--
+      <section class="portifolio" id="portifolio">
+            <div class="interface">
+                <h2 class="titulo">CURSOS</h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/inf_prof.jpg);">
+                        <div class="overlay">Informática Profissional</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/des_dig.jpg);">
+                        <div class="overlay">Design Digital</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/programacao.jpg);">
+                        <div class="overlay">Lógica de Programação</div>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/admin.png);">
+                        <div class="overlay">Administração</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/mark_dig.png);">
+                        <div class="overlay">Marketing Digital</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/mont_manut.png);">
+                        <div class="overlay">Montagem e Manutenção</div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+-->
+        
+        <section class="local" id="local">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <a href="https://maps.app.goo.gl/aKfmjCKCwWu3J4vU8"><div class="img-port" style="background-image: url(images/Local.jpeg);"></div></a>
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>Entre em contato <span>conosco!</span></h2>
+                        <p>Endereço: Rua Mal. Floriano Peixoto, 444. Cidade de Indaial - SC</p>
+                        <p>CEP: 89080-066</p>
+
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/treinamentosarrobatech/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://wa.me//554733127303"><button><i class="bi bi-whatsapp"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--local-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">Contato via <span>E-Mail!</span></h2>
+
+                <form action="https://formsubmit.co/schulz.matheus.delgado@gmail.com" method="POST">
+                    <input type="text" name="nome" placeholder="Seu nome completo:" required>
+                    <input type="text" name="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="telefone" placeholder="Seu telefone:">
+                    <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
+                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logo @Tech" width="100">
+                    </div><!--logo-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/treinamentosarrobatech/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://wa.me//554733127303"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:arrobatechindaial@gmail.com">arrobatechindaial@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
